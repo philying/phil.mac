@@ -1,0 +1,45 @@
+{
+
+	// Colors
+	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+	"theme": "Soda Light 3.sublime-theme",
+
+	//font
+	"font_face": "Menlo",
+	"font_size": 13,
+	"font_options": ["no_round"],
+
+	// Cursor style - no blinking and slightly wider than default
+	"caret_style": "solid",
+	"wide_caret": true,
+
+	// Editor behavior
+	"highlight_modified_tabs": true,
+	"scroll_past_end": false,
+	"auto_complete_commit_on_tab": true,
+	"ignored_packages": ["Vintage"],
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
+	"highlight_line": true,
+	"hot_exit": false,
+
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+	// Sidebar - exclude distracting files and folders
+	"file_exclude_patterns": [
+	    "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj",
+	    "*.o", "*.a", "*.lib", "*.so", "*.dylib",
+	    "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb",
+	    "*.class", "*.psd", "*.db", "*.beam", ".DS_Store",
+	    ".tags"
+	],
+	"folder_exclude_patterns": 
+	[
+    	".svn", ".git", ".hg", "CVS", ".sass-cache"
+	]
+
+
+}
+
